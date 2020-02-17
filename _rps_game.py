@@ -1,3 +1,5 @@
+# Ryan Hoang 017680115
+
 # Date: 9/26/19
 
 # This is a random module for the computer choice
