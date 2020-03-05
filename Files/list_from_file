@@ -1,0 +1,25 @@
+def list_from_file(file_name):
+    outputList = []
+    try:
+        in_file = open(file_name, "r")
+        for line in in_file:
+            line = line.rstrip()
+            outputList.append(line)
+        return outputList
+    except Exception as error:
+        return error
+#
+#     # else:
+#     #     for line in file_name:
+#     #         line = line.rstrip()
+#     #         outputList.append(line)
+#
+
+def main():
+    file_name = input("Enter the input file name: ")
+    result = list_from_file(file_name)
+    if result != []:
+        print(result)
+
+
+main()
