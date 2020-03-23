@@ -1,0 +1,5 @@
+a = int(input("Enter a first number: \n"))
+b = int(input("Enter a second number: \n"))
+print('The sum is', a + b)
+print('The distance is', abs(a-b))
+print('The product is', a*b)
