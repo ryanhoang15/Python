@@ -22,4 +22,4 @@ elif a[0] == b[0]:
         print("time1 and time2 are the same")
 
 else:
-    print("time2 comes first")
+    print("time2 comes first!")
